@@ -37,5 +37,7 @@ using std::cerr;
 using std::endl;
 
 #include "core/version.h"
+#include "core/allocator.h"
+#include "core/stack_allocator.h"
 
 #endif
