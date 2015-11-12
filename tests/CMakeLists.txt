@@ -10,6 +10,8 @@ INCLUDE_DIRECTORIES(
 SET(test_SRC
   main.cpp
   version_test.cpp
+  visitor_test.cpp
+  calculus.cpp
 )
 
 ADD_EXECUTABLE(motr_tests ${test_SRC})
