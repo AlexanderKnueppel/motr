@@ -41,7 +41,6 @@ TEST(StackAllocator, BasicUsageStackAllocator) {
 
 TEST(Allocator, BasicUsageAllocator) {
 	char *p = nullptr;
-	ASSERT_THAT(sizeof(p), Eq(0));
 	{
 		Allocator<char> alloc;
 		p = alloc.allocate(5);
